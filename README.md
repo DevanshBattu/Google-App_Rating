@@ -1,1 +1,3 @@
 # Google-App_Rating
+The project follows a well-structured approach, beginning with data collection, where a dataset containing information about apps on the Play Store is obtained. The data undergoes thorough preprocessing, including data cleaning, handling missing values, and converting data types. Feature engineering is performed to extract relevant information for analysis and modeling.
+We have used 4 regression models LightGBM Regressor, Random Forest Regressor,  Support Vector Regressor and knn. Given that the target variable in our problem is a continuous value, we will be using a regressor model. So we will be evaluating the model on error metrics such as RMSE, MSE, R2, and MAE
